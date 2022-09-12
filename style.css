@@ -1,0 +1,37 @@
+body{
+    background-color: #D2DAFF;
+    font-family: "Montserrat", "serif";
+}
+
+.container{
+    margin-top: 10%;
+}
+
+.card{
+    margin: auto;
+    text-align: center;
+    animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */ /* don't forget to set a duration! */
+}
+
+.card-img-top{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+}
+
+.creator-name{
+    display: inline;
+}
+
+.year{
+    display: inline;
+}
+
+a{
+    color: #000;
+}
